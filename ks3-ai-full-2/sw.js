@@ -1,0 +1,1 @@
+self.addEventListener('install', e=>e.waitUntil(caches.open('ks3').then(c=>c.addAll(['/']))));
